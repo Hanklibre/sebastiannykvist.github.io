@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastian Nykvist</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Film grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Scroll progress -->
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <div class="nav-mark">SN</div>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-overlay">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#signal">Signal</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-portrait" data-parallax="0.15">
+        <img src="portrait.jpg" alt="">
+        <div class="portrait-glitch" aria-hidden="true"></div>
+      </div>
+      <div class="hero-text">
+        <h1 class="split-text">Between the lines</h1>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section-about" id="about">
+    <div class="section-inner">
+      <div class="section-label reveal">I</div>
+      <div class="section-content">
+        <p class="lead reveal">
+          Most of what I do comes down to one question: why do people do what they do, and what makes it easier for them to do something different?
+        </p>
+        <p class="reveal reveal-delay">
+          I work somewhere between clinical psychology and digital health products. I care about scientific evidence. I also care about the real world. Turns out you need both.
+        </p>
+        <p class="reveal reveal-delay">
+          I also make music and podcasts, which sounds unrelated until you think about how much of behavior is just rhythm and repetition.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="section section-work" id="work">
+    <div class="section-inner">
+      <div class="section-label reveal">II</div>
+      <div class="disciplines">
+        <div class="discipline reveal">
+          <span class="discipline-num">01</span>
+          <h3>The behavior part</h3>
+          <p>People don't change because you tell them to. They change when the right thing becomes the easy thing.</p>
+        </div>
+        <div class="discipline reveal reveal-delay">
+          <span class="discipline-num">02</span>
+          <h3>The product part</h3>
+          <p>I've built digital health tools. The hardest problems are rarely technical. They're usually about understanding what someone needs at 7am on a Tuesday when motivation is nowhere to be found.</p>
+        </div>
+        <div class="discipline reveal reveal-delay">
+          <span class="discipline-num">03</span>
+          <h3>The overlap</h3>
+          <p>There's a gap between a treatment guideline and a product spec where good ideas go to die. I like working in that gap.</p>
+        </div>
+        <div class="discipline reveal reveal-delay">
+          <span class="discipline-num">04</span>
+          <h3>The other thing</h3>
+          <p>I produce music and podcasts. It trains a different kind of attention. Also it's fun, which is an underrated reason to do anything.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signal -->
+  <section class="section section-listen" id="signal">
+    <div class="section-inner">
+      <div class="section-label reveal">III</div>
+      <div class="section-content">
+        <p class="lead reveal">
+          I'm at my best with problems that need patience.
+        </p>
+        <p class="reveal reveal-delay">
+          The kind where you have to trace the path, think about what happens along the way, and figure out where someone is most likely to give up. Designing for actual human behavior is like that. It rewards people who enjoy the details.
+        </p>
+        <div class="audio-bars reveal reveal-delay" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-contact" id="contact">
+    <div class="section-inner">
+      <div class="section-label reveal">IV</div>
+      <div class="section-content">
+        <h2 class="reveal">Say hello</h2>
+        <p class="reveal reveal-delay">I like hearing from people.</p>
+        <a href="mailto:hello@hurkel.com" class="contact-link reveal reveal-delay">hello@hurkel.com</a>
+        <p class="location reveal reveal-delay">Stockholm</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>&copy; 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
